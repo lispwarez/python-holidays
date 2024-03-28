@@ -146,6 +146,7 @@ class SouthAfricaStaticHolidays:
         2022: (DEC, 27, presidential_decree_holiday),
         # Winning the 2023 Rugby World Cup
         2023: (DEC, 15, presidential_decree_holiday),
+        2024: (MAY, 29, national_and_provincial_elections),
     }
 
     special_public_holidays_observed = {
