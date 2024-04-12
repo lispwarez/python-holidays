@@ -1,12 +1,13 @@
-#  python-holidays
-#  ---------------
+#  holidays
+#  --------
 #  A fast, efficient Python library for generating country, province and state
 #  specific sets of holidays on the fly. It aims to make determining whether a
 #  specific date is a holiday as fast and flexible as possible.
 #
-#  Authors: dr-prodigy <dr.prodigy.github@gmail.com> (c) 2017-2023
+#  Authors: Vacanza Team and individual contributors (see AUTHORS file)
+#           dr-prodigy <dr.prodigy.github@gmail.com> (c) 2017-2023
 #           ryanss <ryanssdev@icloud.com> (c) 2014-2017
-#  Website: https://github.com/dr-prodigy/python-holidays
+#  Website: https://github.com/vacanza/python-holidays
 #  License: MIT (see LICENSE file)
 
 from unittest import TestCase
@@ -57,6 +58,7 @@ class TestSouthAfrica(CommonCountryTests, TestCase):
             "2016-08-03",  # Election Day 2016
             "2019-05-08",  # Election Day 2019
             "2021-11-01",  # Election Day 2019
+            "2024-05-29",  # Election Day 2024
         )
 
     def test_new_years_day(self):

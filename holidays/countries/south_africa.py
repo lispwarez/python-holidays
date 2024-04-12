@@ -1,12 +1,13 @@
-#  python-holidays
-#  ---------------
+#  holidays
+#  --------
 #  A fast, efficient Python library for generating country, province and state
 #  specific sets of holidays on the fly. It aims to make determining whether a
 #  specific date is a holiday as fast and flexible as possible.
 #
-#  Authors: dr-prodigy <dr.prodigy.github@gmail.com> (c) 2017-2023
+#  Authors: Vacanza Team and individual contributors (see AUTHORS file)
+#           dr-prodigy <dr.prodigy.github@gmail.com> (c) 2017-2023
 #           ryanss <ryanssdev@icloud.com> (c) 2014-2017
-#  Website: https://github.com/dr-prodigy/python-holidays
+#  Website: https://github.com/vacanza/python-holidays
 #  License: MIT (see LICENSE file)
 
 from holidays.calendars.gregorian import JAN, MAR, APR, MAY, JUN, AUG, NOV, DEC
@@ -19,6 +20,7 @@ class SouthAfrica(ObservedHolidayBase, ChristianHolidays, InternationalHolidays,
     https://www.gov.za/about-sa/public-holidays
     https://en.wikipedia.org/wiki/Public_holidays_in_South_Africa
     https://www.gov.za/speeches/president-cyril-ramaphosa-progress-economic-recovery-30-oct-2023-0000
+    https://www.gov.za/documents/notices/public-holidays-act-declaration-29-may-2024-public-holiday-23-feb-2024
     """
 
     country = "ZA"
