@@ -1,3 +1,34 @@
+Version 0.48
+============
+
+Released May 6, 2024
+
+- Introduce workdays calculation support (#1773 by @KJhellico)
+- Refactor `HolidayBase::__getattr__`: speed up _add_holiday_* methods (#1764 by @KJhellico)
+- Add Palau holidays (#1776 by @PPsyrius, @arkid15r)
+- Update Greece holidays: move 2024 Labor Day to May 7 (#1786 by @KJhellico)
+- Update Timor-Leste holidays (#1772 by @KJhellico)
+- Update United States holidays: fix Confederate Memorial Day in MS (#1775 by @KJhellico)
+- Update badges in README (#1770 by @KJhellico)
+- Update CI/CD: fix macOS Python versions (#1778 by @arkid15r)
+- Extend HolidayBase::_add_holiday family methods with Easter support (#1762 by @KJhellico)
+- Prioritize entity default holiday category processing (#1769 by @KJhellico)
+
+Version 0.47
+============
+
+Released April 15, 2024
+
+- Refactor some sequential holidays (#1750 by @KJhellico)
+- Add Jordan holidays (#1746 by @firaskafri, @arkid15r)
+- Change contributors badge placement (#1753 by @arkid15r)
+- Update Australia holidays: fix Sovereign's Birthday dates in WA (#1757 by @KJhellico)
+- Update Eid al-Fitr 2024 dates (#1758 by @KJhellico)
+- Update European Central Bank holidays (#1754 by @KJhellico)
+- Update Poland holidays: fix Ascension Day (#1751 by @KJhellico)
+- Update South Africa holidays: add public holiday on May 29, 2024 (#1749 by @KJhellico)
+- Update contributing guidelines (#1752 by @arkid15r)
+
 Version 0.46
 ============
 
